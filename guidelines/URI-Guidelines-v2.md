@@ -1,7 +1,7 @@
 #### Australian Government Linked Data Working Group
 
 # URI Guidelines v2.0
-#### (June 06 2018)
+#### (June 21 2018)
 
 *This document is a second and very different version of the* Guidelines *produced by the Australian Government Linked Data Working Group. See *[the guidelines repository](https://github.com/AGLDWG/TR/tree/master/guidelines) *for previous versions.*
 
@@ -25,12 +25,14 @@
 #### Registration process roles are to be interpreted as defined in [[14](#ref-14)]
 
 ## 2. <a id="Introduction"></a>Introduction
-[//]: # entities in original replaced with things due to confusion over word entity
-[//]: # digital things - dataset, classification concepts - added as they are in use and likely targets of URIs      
+These guidelines serve as the 2018 revised edition of the Australian Government Linked Data Working Group's URI Guidelines. The changes are substantial, and thus, a completed revised edition has been prepared. 
+The core differences are:
+The terminology 'entities' in the original has been replaced with 'things' due to confusion over the term 'entity'.
+[//]: # The concepts of 'digital things','dataset', 'classification' have been added as they are in use and likely targets of URIs.      
 Government departments and agencies assign identifiers to many things they are responsible for - e.g. datasets, classification concepts, hospitals, equipment, etc. These identifiers are then used when referring to or making statements about particular things. For example, when referring to a road closure, the identifier (e.g. "M5") will be used to inform the public or when referring to a particular census Mesh Block, its identifier, perhaps "80006300000" will be used.
 
-[//]: # reference the PC report or similar  
-Government published, public sector information (PSI), usually about the things agencies are responsible for, is intended to be re-used by many, initially perhaps unknown, applications over time to maximise its value to the nation. For this reason, it is important that elements of it are able to be identified and accessed in consistent ways for long periods (perhaps multiple decades).
+[//]: # PC report  
+In 2017, the Productivity Commission released a report into data availability and use. Government published, public sector information (PSI), is comprised of the following types of data: administrative data, transactional data and scientific data. Broadly, data is usually about the things agencies are responsible for. When this data is made available to the public, it is intended to be re-used by many, initially perhaps unknown, applications over time to maximise its value to the nation. For this reason, it is important that elements of it are able to be identified and accessed in consistent ways for long periods (perhaps multiple decades).
 
 The Australian Government Linked Data Working Group (AGLDWG) advocates the use of Linked Data [[1](#ref-1)] as a particular set of technologies to be used for Internet-distributed, machine-readable data and, due to this, advocates the use of Linked Data URIs for identifiers for things.
 
